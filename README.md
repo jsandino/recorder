@@ -29,6 +29,13 @@ You will need to have the following software installed on your machine:
 
 ### Installation
 
+Once you got the prerequisites out of the way, create a virtual environment.  From the project root:
+
+```
+python3 -m venv .venv
+```
+Then install all project dependencies:
+
 ```
 make install
 ```
