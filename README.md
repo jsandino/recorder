@@ -24,8 +24,13 @@ The sequence of steps involved in transcribing speech to text can be summarized 
 ### Pre-requisites
 
 You will need to have the following software installed on your machine:
-- Python 3
-- FFmpeg
+- Python 3: you can dowload/install python from [here](https://www.python.org/downloads/)
+- Optional (but highly recommended): [Pyenv](https://github.com/pyenv/pyenv?ltab=readme-ov-file#simple-python-version-management-pyenv), a python version manager
+- FFmpeg: for transcoding files; [download available here](https://ffmpeg.org/download.html).  Alternatively, if you're on a mac:
+
+```
+brew install ffmpeg
+```
 
 ### Installation
 
